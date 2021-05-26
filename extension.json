@@ -1,0 +1,13 @@
+{
+  "name": "LSS Bus Analyzer",
+  "apiVersion": "1.0.0",
+  "author": "Colin MacKenzie",
+  "version": "0.0.1",
+  "description": "Analyze data on an RobotShop Lynxmotion LSS bus.",
+  "extensions": {
+    "LSS Bus Analyzer": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "LssProtocolAnalyzer.LssHLA"
+    }
+  }
+}
